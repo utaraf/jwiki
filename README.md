@@ -1,6 +1,7 @@
 # jwiki
 jwiki is a simple Java client library wrapping the [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) Web [API](https://www.mediawiki.org/wiki/API:Main_page).  It can be used by developers to create bots and tools, or to perform analytics on just about any Wiki.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/02f10314a60b4fe390bc5825783d2638)](https://www.codacy.com/app/utaraf/jwiki?utm_source=github.com&utm_medium=referral&utm_content=utaraf/jwiki&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/fastily/jwiki.svg?branch=master)](https://travis-ci.org/fastily/jwiki)
 
 ## Features
