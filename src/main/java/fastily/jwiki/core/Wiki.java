@@ -259,7 +259,7 @@ public class Wiki
 	 */
 	public NS getNS(String prefix)
 	{
-		if (prefix.isEmpty() || prefix.toLowerCase().equals("main"))
+		if (prefix.isEmpty() || prefix.equalsIgnoreCase("main"))
 			return NS.MAIN;
 
 		return nsl.nsM.containsKey(prefix) ? new NS((int) nsl.nsM.get(prefix)) : null;
